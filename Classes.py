@@ -5,7 +5,7 @@
 
 # In[15]:
 
-class area:
+class area (object):
     pi = 3.14
     def __init__ (self, radius=1):
         self.radius = radius
